@@ -1,4 +1,3 @@
-
 /*class Node {
     int data;
     Node left;
@@ -21,6 +20,9 @@
 };*/
 
 public class kthsmallestelement {
+
+
+
     private void inorder(Node node, int[] counter, int k, int[] kSmallest) {
         if (node == null || counter[0] >= k) return;
 
@@ -50,3 +52,6 @@ public class kthsmallestelement {
 
     
 }
+
+    
+
